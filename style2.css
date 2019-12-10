@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #F6921E;
+}
+
+.wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+  
+ 
+}
+
+/*clear*/
+.clear{
+  clear: both;
+}
+
+/*Type*/
+@font-face{
+  font-family: Untitled1;
+  src: url("fonts/VMF.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+h2, p, table, a{
+  color:white;
+}
+.eTr, .black{
+  color: black;
+}
+
+h2{
+  font-family: 'Untitled1', 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+h3{
+  font-family: 'Nunito', sans-serif;
+}
+p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+}
+.sub{
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+table{
+  font-family: 'Nunito', sans-serif;
+}
+
+.last{
+  margin: 30px
+}
+a{
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+}
+a:hover {
+  color: yellow;
+}
+/*position*/
+.right{
+  float: right;
+  margin: 5px;
+}
+
+.left{
+  float: left;
+}
+.center{
+  text-align: center;
+}
+
+
+.layers{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+
