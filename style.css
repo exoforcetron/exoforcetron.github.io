@@ -1,0 +1,269 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #F6921E;
+  max-height: 2935px;
+}
+
+.wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+  max-height:2935px;
+/*  background-color: antiquewhite;*/
+  overflow: hidden;
+  border: 3px black dashed;
+}
+
+/*Top Section*/
+.top{
+  display: flex;
+  justify-content: center;
+
+ 
+}
+.holder{
+  position: absolute;
+  top:857px;
+/*  background-color: white;*/
+  width: 50%;
+  height: 550px;
+  overflow: hidden;
+}
+
+.eTr{
+  margin: 40px;
+}
+
+
+/*
+.centerC{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+*/
+
+
+.tT{
+  position: absolute;
+  top: 95px;
+  left: 300px;
+}
+
+
+
+.hover:hover .aside{
+  display: block;
+}
+
+.aside{
+  background: white;
+  position: absolute;
+  margin: 40px, 40px, 40px, 40px;
+  opacity: 60%;
+  display: none;
+  width: 150px;
+}
+
+.hover1:hover .aside1{
+  display: block;
+}
+
+.aside1{
+  background: white;
+  position: absolute;
+  margin: 40px, 40px, 40px, 40px;
+  opacity: 60%;
+  display: none;
+  width: 150px;
+}
+
+.hover2:hover .aside2{
+  display: block;
+}
+
+.aside2{
+  background: white;
+  position: absolute;
+  margin: 40px, 40px, 40px, 40px;
+  opacity: 60%;
+  display: none;
+  width: 150px;
+}
+
+.hover3:hover .aside3{
+  display: block;
+}
+
+.aside3{
+  background: white;
+  position: absolute;
+  margin: 40px, 40px, 40px, 40px;
+  opacity: 60%;
+  display: none;
+  width: 150px;
+}
+
+.hover4:hover .aside4{
+  display: block;
+}
+
+.aside4{
+  background: white;
+  position: absolute;
+  margin: 40px, 40px, 40px, 40px;
+  opacity: 60%;
+  display: none;
+  width: 150px
+}
+
+.hover5:hover .aside5{
+  display: block;
+}
+
+.aside5{
+  background: white;
+  position: absolute;
+  margin: 40px, 40px, 40px, 40px;
+  opacity: 60%;
+  display: none;
+  width: 150px
+}
+
+
+
+
+/*Middle Section*/
+.middle{
+  display: flex;
+  justify-content: center;
+}
+.holderM{
+  position: absolute;
+  top: 1447px;
+/*  background-color: aqua;*/
+  max-width: 50%;
+}
+
+/*Bottom Article*/
+.bottom{
+  display: flex;
+  justify-content: center;
+}
+.holderB{
+  max-width: 50%;
+  position: absolute;
+  top: 2090px;
+/*  background-color: blueviolet;*/
+}
+
+footer{
+/*
+  display: flex;
+  align-content: flex-end;
+*/
+  position: absolute;
+  top: 2785px;
+  background-color: yellow;
+/*  border: 3px black solid;*/
+  height: 150px;
+}
+
+#canvas{
+  position: fixed;
+  top:0px;
+/*  border: 3px black solid;*/
+
+  height: 800px;
+  width: 1280px;
+
+  
+}
+
+/*clear*/
+.clear{
+  clear: both;
+}
+
+/*Type*/
+@font-face{
+  font-family: Untitled1;
+  src: url("fonts/VMF.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+h2, p, table, a{
+  color:white;
+}
+.eTr{
+  color: black;
+}
+
+h2{
+  font-family: 'Untitled1', 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+}
+.sub{
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+table{
+  font-family: 'Nunito', sans-serif;
+}
+
+.last{
+/*  background-color: yellow;*/
+  width: 1280px;
+  height: 300px;
+}
+a{
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+}
+a:hover {
+  color: yellow;
+}
+/*position*/
+.right{
+  float: right;
+  margin: 5px;
+}
+
+.left{
+  float: left;
+}
+.center{
+  text-align: center;
+}
+
+
+.layers{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+.toMiddle{
+  display: flex;
+}
+
+
+
+/* test
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 371.87 1206.31"><title>Asset 4</title><polyline class="yellow3" points="359.65 1204.54 119.67 964.56 2.82 571.16 221.9 352.08 269.19 399.36 369.37 399.36 369.37 0" style="fill:none;stroke:#fff100;stroke-miterlimit:10;stroke-width:5px"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146.28 348.96">   <title>Asset 6</title>
+    <polyline class="yellow" points="144.51 1.77 2.83 143.45 66.34 348.22"     style="fill:none;stroke:#fff100;stroke-miterlimit:10;stroke-width:5px"/>
+    </svg>
+*/
