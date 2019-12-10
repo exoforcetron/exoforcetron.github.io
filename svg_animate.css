@@ -1,0 +1,81 @@
+/*
+.yellow{
+  animation-name: hide;
+  animation: hide 3s ease infinite;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 1.5s linear forwards;
+}
+
+
+@keyframes dash {
+
+  0% {
+    stroke-dashoffset: 1000;
+  }
+
+  100%{
+   stroke-dashoffset: 0; 
+  }
+}
+*/
+.main{
+  width: 1000px;
+  height: 3200px;
+}
+.yellow{
+  animation: line 5s ease-out forwards;
+	stroke-dasharray: 9000;
+	stroke-dashoffset: 9000;
+/*	stroke: #cfd8dc;*/
+	transform-origin: center;
+}
+.white{
+  animation: line 3s ease-out forwards;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+}
+@keyframes line {
+
+	100% {
+		stroke-dashoffset: 0;
+	}
+}
+
+.text{
+/*  opacity: 0;*/
+  animation-name: hide;
+  animation: hide 3s ease;
+}
+.dots{
+/*  opacity: 0;*/
+  animation-name: hide;
+  animation: hide 3s ease;
+}
+
+@keyframes hide{
+   0% { opacity: 0; }
+  10% { opacity: 0; }
+  15% { opacity: 1; }
+  100% { opacity: 1; }
+}
+.box{
+  display: flex;
+  justify-content: center;
+}
+
+/*
+yellow{
+  stroke-dasharray: 1000;
+  animation: draw 2s linear;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+*/
