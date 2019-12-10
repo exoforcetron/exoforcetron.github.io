@@ -200,10 +200,7 @@ footer{
 h2, p, table, a{
   color:white;
 }
-.eTr{
-  color: black;
-}
-.black{
+.eTr, .black{
   color: black;
 }
 
