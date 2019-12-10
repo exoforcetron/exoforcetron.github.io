@@ -203,6 +203,9 @@ h2, p, table, a{
 .eTr{
   color: black;
 }
+.black{
+  color: black;
+}
 
 h2{
   font-family: 'Untitled1', 'Nunito', sans-serif;
@@ -227,7 +230,6 @@ table{
 /*  background-color: yellow;*/
   width: 1280px;
   height: 300px;
-  color:black;
 }
 a{
   text-decoration: none;
