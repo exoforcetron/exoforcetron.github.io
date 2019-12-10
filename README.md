@@ -1,2 +1,2 @@
 # exoforcetron.github.io
-This website uses svg for the background.
+This website uses svg animation for the background.
