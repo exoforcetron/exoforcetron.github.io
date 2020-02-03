@@ -163,6 +163,13 @@ a{
   color: black;
   text-decoration: none;
 }
+
+.orange{
+  color: orange;
+}
+.center{
+  text-align: center;
+}
 .padding{
   padding: 5%;
 }
