@@ -2,29 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-<!--
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
--->
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="HandheldFriendly" content="true">
   <title>Vancouver Maker Faire</title>
-<!--Responsive Navigation Bar - W3jar.Com-->
   <link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="svg_animate.css">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+  <link rel="icon" href="Media/VMF_Icon-01.png">
 </head>
 <body>
 
   <div class="container">
     <div class="logo">
-        <a href="#"><img src="Media/VMF_Icon-01.png" alt="logo" class="li"></a>
+        <a href="#"><img src="Media/newImages/VMF_Icon-01.png" alt="logo" class="li"></a>
     </div>
     <div class="navbar">
       <!--hambeger icon-->
-      <div class="icon-bar hide" onclick="Show()">
+      <div class="icon-bar" onclick="Show()">
         <i></i>
         <i></i>
         <i></i>
@@ -40,8 +36,7 @@
 
     </div>
   </div>
-  
-<!-- Image banner  -->
+  <!-- Image banner  -->
    <div class="imagep">
     <div class="wrapper">
       <!-- SVG -->
@@ -124,53 +119,69 @@
       </article>
    </div>
 
-<!--  Activites -->
    <div class="wrapper">
-    <section class="margin" id="activites">
-        <h2 >ACTIVITES</h2>
+    <section class="margin">
+        <h2 id="activites">ACTIVITES</h2>
         <p>Here is just some activites to do at the Vancouver Maker Faire.</p>
-        <div class="left">
-          <img src="Media/3D-Printer-Village.jpg" alt="3D printers displayed on table">
-          <h3 class="centerT">3D Printer Village</h3>
-        </div>
-        <div class="left">
-          <img src="Media/BLsznUsCIAAEDPC.jpg" alt="kids playing angry birds">
-          <h3 class="centerT">Real Life Angry Birds</h3>
-        </div>
-        <div class="left overide">
-          <img src="Media/JPt2HRs2PN5Ti1Zu.jpg" alt="light up maker bot pin">
-          <h3 class="centerT">Maker Bot Pin</h3>
-        </div>
-        <div class="left">
-          <img src="Media/Lego.jpg" alt="kids building lego tree pots">
-          <h3 class="centerT">Lego Build Zone</h3>
-        </div>
-        <div class="left">
-          <img src="Media/maxresdefault.jpg" alt="kids playing with bristlebots">
-          <h3 class="centerT">Bristlebots</h3>
-        </div>
-        <div class="left overide">
-          <img src="Media/Titanaboa.jpg" alt="50 foot robot snake">
-          <h3 class="centerT">Titanaboa</h3>
-        </div>
-
+        <table class="tableA">
+          <tr class="imageT">
+            <td>
+              <img src="Media/newImages/3D-Printer-Village.jpg">
+            </td>
+            <td>
+              <img src="Media/newImages/BLsznUsCIAAEDPC.jpg">
+            </td>
+            <td class="overide">
+              <img src="Media/newImages/JPt2HRs2PN5Ti1Zu.jpg">
+            </td>
+          </tr>
+          <tr class="textT">
+            <td>
+              <p>3D Printing Village</p>
+            </td>
+            <td>
+              <p>Real Life Angry Birds</p>
+            </td>
+            <td class="overide">
+              <p>Maker Bot Pin</p>
+            </td>
+          </tr>
+          <tr class="imageT">
+            <td>
+              <img src="Media/newImages/Lego.jpg" >
+            </td>
+            <td>
+              <img src="Media/newImages/maxresdefault.jpg" >
+            </td>
+            <td class="overide">
+              <img src="Media/newImages/Titanaboa.jpg" alt="50 foot robot snake">
+            </td>
+          </tr>
+          <tr class="textT">
+            <td>
+              <p>Lego Build Zone</p>
+            </td>
+            <td>
+              <p>Bristlebots</p>
+            </td>
+            <td class="overide">
+              <p>Titanaboa</p>
+            </td>
+          </tr>
+        </table>
     </section>
     </div>
 
-<!--Event Section-->
-  <div class="wrapper">
+
+   <div class="wrapper">
     <article id="event" class="margin">
       <h2>EVENT</h2>
-      <p class="intro">Vancouver Maker faire starts on <span class="orange">June 8 + 9.</span> </p>
-      <p class="intro"><span class="center">10 am - 6pm </span><span class="center">at 2901E Hastings PNE Forum.</span> </p>
-      <div class="">
-        <p class="italics">Interested in being a maker or volunteering?</p> <br>
-        <button class="center" href="page2.html">Sign up now!</button>  
-      </div>
-    </article>
-  </div>
-    
-<!--  tickets  -->
+      <p class="center">Vancouver Maker faire starts on <span class="orange">June 8 + 9.</span> <br>
+        10 am - 6pm at 2901E Hastings PNE Forum. </p>       
+      <p> <a href="page2.html">Sign up as a maker </a>or come to the event. <br></p>
+      </article>
+      
+    </div>
     <div class="wrapper">
       <div id="tickets" class="margin">
         <h2>TICKETS</h2>
@@ -199,7 +210,6 @@
           </div>
         </div>
     </footer>
-
 <script>
   //get access to mobile menu
   var navList = document.getElementById("nav-lists");
@@ -211,12 +221,8 @@
   function Hide(){
     navList.classList.remove("_Menus-show");
   }
-//  
-//  //All this does is help align the anchor links
-//     var shiftWindow = function() { scrollBy(0, -90px) };
-//     //help hash load
-//    if (location.hash) shiftWindsow();
-//        window.addEventListener("hashchange", shiftWindow);
+ 
+
 </script>
 
 </body>
