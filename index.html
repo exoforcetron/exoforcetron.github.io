@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<!--
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+-->
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <title>Jessi Langager-Graphic Designer</title>
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/loading.css">
+  <link rel="stylesheet" href="css/mouse.css">
+  <script src="javascript/loading.js"></script>
+  
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+</head>
+<body onload="myFunction()">
+    
+  <div id="loader">
+  </div>
+  
+  <div id="overlay" class="longDrop">
+	<aside>made with <a href="https://github.com/matthias-vogt/legitRipple.js" target="_blank">legitRipple.js</a></aside>
+  </div>
+  
+  <div style="display:none;" id="myDiv" class="animage-bottom">
+  <div class="container">
+    <div class="logo">
+        <a href="#"><img src="Media/VMF_Icon-01.png" alt="logo" class="li"></a>
+    </div>
+    <div class="navbar">
+      <!--hambeger icon-->
+      <div class="icon-bar hide" onclick="Show()">
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+      <!--mobile menu-->
+      <ul id="nav-lists">
+        <li class="close"><span onclick="Hide()" class="img">×</span></li>
+        <li><a href="#about" onclick="Hide()" class="img">About me</a></li>
+        <li><a href="#activites" onclick="Hide()" class="img">Work</a></li>
+        <li><a href="#event" onclick="Hide()" class="img">contact</a></li>
+       
+      </ul>
+
+    </div>
+  </div>
+  
+
+  <section id="work">
+   <div class="wrapper">
+    <div id="cf">
+      <img class="top" src="Media/3D-Printer-Village.jpg" />
+      <img class="bottom" src="Media/BLsznUsCIAAEDPC.jpg" />
+    </div>
+     
+     <img src="Media/3D-Printer-Village.jpg" alt="3D printers displayed on table">
+     <img src="Media/3D-Printer-Village.jpg" alt="3D printers displayed on table">
+     <img src="Media/3D-Printer-Village.jpg" alt="3D printers displayed on table">
+     <img src="Media/3D-Printer-Village.jpg" alt="3D printers displayed on table">
+     <img src="Media/3D-Printer-Village.jpg" alt="3D printers displayed on table">
+   </div>
+
+  </section>
+ 
+
+<!--  Activites -->
+   <div class="wrapper">
+    <section class="margin" id="activites">
+        <h2 >ACTIVITES</h2>
+        <p>Here is just some activites to do at the Vancouver Maker Faire.</p>
+        <div class="left">
+          <img src="Media/3D-Printer-Village.jpg" alt="3D printers displayed on table">
+          <h3 class="centerT">3D Printer Village</h3>
+        </div>
+        <div class="left">
+          <img src="Media/BLsznUsCIAAEDPC.jpg" alt="kids playing angry birds">
+          <h3 class="centerT">Real Life Angry Birds</h3>
+        </div>
+        <div class="left overide">
+          <img src="Media/JPt2HRs2PN5Ti1Zu.jpg" alt="light up maker bot pin">
+          <h3 class="centerT">Maker Bot Pin</h3>
+        </div>
+        <div class="left">
+          <img src="Media/Lego.jpg" alt="kids building lego tree pots">
+          <h3 class="centerT">Lego Build Zone</h3>
+        </div>
+        <div class="left">
+          <img src="Media/maxresdefault.jpg" alt="kids playing with bristlebots">
+          <h3 class="centerT">Bristlebots</h3>
+        </div>
+        <div class="left overide">
+          <img src="Media/Titanaboa.jpg" alt="50 foot robot snake">
+          <h3 class="centerT">Titanaboa</h3>
+        </div>
+
+    </section>
+    </div>
+
+<!--Event Section-->
+  <div class="wrapper">
+    <article id="event" class="margin">
+      <h2>EVENT</h2>
+      <p class="intro">Vancouver Maker faire starts on <span class="orange">June 8 + 9.</span> </p>
+      <p class="intro"><span class="center">10 am - 6pm </span><span class="center">at 2901E Hastings PNE Forum.</span> </p>
+      <div class="">
+        <p class="italics">Interested in being a maker or volunteering?</p> <br>
+        <button class="center" href="page2.html">Sign up now!</button>  
+      </div>
+    </article>
+  </div>
+    
+<!--  tickets  -->
+    <div class="wrapper">
+      <div id="tickets" class="margin">
+        <h2>TICKETS</h2>
+        <h3>Admission:</h3>
+        <table>
+          <tr>
+            <th>General</th>
+            <td>$15</td>
+          </tr>
+          <tr>
+            <th>Youth, Senior</th>
+            <td>$12</td>
+          </tr>
+          <tr>
+            <th>5 and under</th>
+            <td>free</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+     <footer>
+       <div class="wrapper">
+          <div class="last">
+            <a href="#top" title="top" class="right black">Back to top</a>
+            <h3>Maker Faire 2019</h3>
+          </div>
+        </div>
+    </footer>
+  </div>
+
+<script>
+  //get access to mobile menu
+  var navList = document.getElementById("nav-lists");
+  //show menu
+  function Show() {
+    navList.classList.add("_Menus-show");
+  }
+  //hide menu
+  function Hide(){
+    navList.classList.remove("_Menus-show");
+  }
+//  
+//  //All this does is help align the anchor links
+//     var shiftWindow = function() { scrollBy(0, -90px) };
+//     //help hash load
+//    if (location.hash) shiftWindsow();
+//        window.addEventListener("hashchange", shiftWindow);
+</script>
+
+</body>
+</html>
