@@ -19,6 +19,10 @@ body{
 /*  background-color: black;*/
 }
 
+#nav{
+  z-index: 1;
+}
+
 .wrapper{
   max-width: 1280px;
   margin: 0 auto;
@@ -29,7 +33,7 @@ body{
 
 /*Navigation*/
 header nav{
-  background-color: yellow;
+  background-color: black;
   width: 100%;
   height: 80px;
   position: fixed;
@@ -68,7 +72,26 @@ header .icon{
   background-color: #F6921E;
 }
 
+#teddyImg{
+  width: 311px;
+  height: 311px;
+  overflow: hidden;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+#teddyImg .teddy{
+  position: absolute;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
 
+
+#teddyImg:hover #teddyPng{
+  display: none;
+}
 /*about section*/
 
 .video{
@@ -162,7 +185,7 @@ footer{
 /*Type*/
 @font-face{
   font-family: Untitled1;
-  src: url("fonts/VMF.ttf") format("truetype");
+  src: url("fonts/ExoforceTron.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -172,9 +195,14 @@ h2, p, table, a{
 .eTr, .black{
   color: black;
 }
+h1{
+  font-family: 'Exoforce', 'Nunito', sans-serif;
+  color: orange;
+  text-align: center;
+}
 
 h2{
-  font-family: 'Untitled1', 'Nunito', sans-serif;
+  font-family: 'Exoforce', 'Nunito', sans-serif;
   text-align: center;
   font-size: 245%;
   margin-bottom: 30px;
@@ -218,7 +246,8 @@ a{
 }
 
 .margin{
-  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 
@@ -232,5 +261,10 @@ a{
   }
   .hide{
     display: none;
+  }
+  #exo h1{
+    left: 0%;
+    margin: 0 auto;
+    font-size: 30%;
   }
 }
