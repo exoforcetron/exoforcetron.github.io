@@ -10,7 +10,7 @@
 .container {
   height: 80px;
   width: 100%;
-  background-color: #fff100;
+  background-color: black;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -72,7 +72,7 @@
 
 .container .navbar ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 14px;
   text-transform: uppercase;
   display: block;
