@@ -77,16 +77,39 @@ header .icon{
   margin-bottom: 30px;
   background-color: #F6921E;
 }
-
-#teddyImg{
+.crop{
   width: 311px;
   height: 311px;
   overflow: hidden;
+}
+#teddyImg{
   display: flex;
   align-content: center;
   justify-content: space-around;
+  border: solid 1px black;
+  background-color: white;
+/*  margin-right: 30%;*/
 }
 #teddyImg .teddy{
+  position: absolute;
+  top: 80px;
+}
+#VMFImg, #proImg{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  border: solid 1px black;
+  position: relative;
+}
+#VMFImg{
+    background-color: #F6921E;
+}
+#VMFImg .VMF{
+  position: absolute;
+  top: 3%;
+  padding-left: 50px;
+}
+.pro{
   position: absolute;
 }
 .flex{
@@ -94,16 +117,20 @@ header .icon{
   flex-wrap: wrap;
 }
 .hov{
-/*   background:#ff0;*/
-    display:block;
-    height:311px;
-    opacity:1;
-    position:absolute;
-    width:311px;
+  display:block;
+  height:311px;
+  opacity:1;
+  position:absolute;
+  width:311px;
+  text-align: center;
 }
+#hov1, #hov2, #hov3{
+  background-color: none;
+}
+
 .still{
   position: absolute;
-  top:50%;
+  top:30%;
 }
 
 /*
