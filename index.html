@@ -24,7 +24,7 @@
     
   <div id="loader">
     <div id="loading"></div>
-    <div id="exo"><h1>Exoforcetron</h1></div>
+    <div id="exo" class="exoT"><h1>Exoforcetron</h1></div>
   </div>
   
   
@@ -43,9 +43,9 @@
       <!--mobile menu-->
       <ul id="nav-lists">
         <li class="close"><span onclick="Hide()" class="img">×</span></li>
-        <li><a href="#about" onclick="Hide()" class="img">About me</a></li>
-        <li><a href="#activites" onclick="Hide()" class="img">Work</a></li>
-        <li><a href="#event" onclick="Hide()" class="img">contact</a></li>
+        <li><a href="#about" id="abo" onclick="Hide()" class="img">About me</a></li>
+        <li><a href="#work" id="wok" onclick="Hide()" class="img">Work</a></li>
+        <li><a href="#contact" id="con" onclick="Hide()" class="img">contact</a></li>
        
       </ul>
 
@@ -61,20 +61,26 @@
            <img src="Media/Teddy.gif" class="teddy" id="teddyGif" height="400px" >
            <img src="Media/Teddy.PNG" class="teddy" id="teddyPng" height="400px">
            <a class="hov" id="hov1" onmouseover="hovered1()" onmouseout="done1()" href="#">
-             <h1 class="still hidden" id="Kin">Kinetic Type</h1>
+             <h1 class="still hidden u" id="Kin">Kinetic Type</h1>
            </a>
           </div>
-          <div class="crop"  id="VMFImg">
-           <img src="Media/VMF-animtion.gif" class="VMF" id="VMFGif" height="300px" >
-           <img src="Media/logoAnimtion_66.png" class="VMF" id="VMFPng" height="300px">
+          <div class="crop"  id="VMFAImg">
+           <img src="Media/VMF-animtion.gif" class="VMFA" id="VMFGif" height="300px" >
+           <img src="Media/logoAnimtion_66.png" class="VMFA" id="VMFAPng" height="300px">
            <a class="hov" id="hov2" onmouseover="hovered2()" onmouseout="done2()" href="#">
-             <h1 class="still hidden" id="Ani">VMF Animation</h1>
+             <h1 class="still hidden u" id="Ani">VMF Animation</h1>
            </a>
           </div>
           <div class="crop" id="proImg">
            <img src="Media/instructions-01.png" class="pro" id="ProPng" height="300px" >
            <a class="hov" id="hov3" onmouseover="hovered3()" onmouseout="done3()" href="#">
-             <h1 class="still hidden" id="pro">Cardboard Prosthetic Arm Instructions</h1>
+             <h1 class="still1 hidden u" id="pro">Cardboard Prosthetic Arm Instructions</h1>
+           </a>
+          </div>
+          <div class="crop" id="VMFImg">
+           <img src="Media/Posters2-12.png" class="VMF" id="VMFPng" height="300px" >
+           <a class="hov" id="hov4" onmouseover="hovered4()" onmouseout="done4()" href="#">
+             <h1 class="still1 hidden u" id="VMF">VMF</h1>
            </a>
           </div>
        </div>
@@ -83,8 +89,8 @@
      <footer>
        <div class="wrapper">
           <div class="last">
-            <a href="#top" title="top" class="right black">Back to top</a>
-            <h3>Maker Faire 2019</h3>
+            <a href="#top" id="goT" title="top" class="right black">Back to top</a>
+            <h3 class="exo">EXOFORCETRON 2020</h3>
           </div>
         </div>
     </footer>
