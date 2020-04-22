@@ -263,7 +263,9 @@ a{
 .padding{
   padding: 5%;
 }
-
+.marginTop{
+  margin-top: 100px;
+}
 .margin{
   margin-left: 10%;
   margin-right: 10%;
