@@ -94,22 +94,22 @@ header .icon{
   position: absolute;
   top: 80px;
 }
-#VMFImg, #proImg{
+#VMFAImg, #proImg, #VMFImg{
   display: flex;
   align-content: center;
   justify-content: space-around;
   border: solid 1px black;
   position: relative;
 }
-#VMFImg{
+#VMFAImg{
     background-color: #F6921E;
 }
-#VMFImg .VMF{
+.VMFA{
   position: absolute;
   top: 3%;
   padding-left: 50px;
 }
-.pro{
+.pro, .VMF{
   position: absolute;
 }
 .flex{
@@ -123,6 +123,7 @@ header .icon{
   position:absolute;
   width:311px;
   text-align: center;
+  vertical-align: middle;
 }
 #hov1, #hov2, #hov3{
   background-color: none;
@@ -132,7 +133,6 @@ header .icon{
   position: absolute;
   top:30%;
 }
-
 /*
 #teddyImg:hover #teddyPng{
   display: none;
@@ -216,6 +216,8 @@ footer{
   width: 100%;
   background-color: #fff100;
   height: 80px;
+  position: absolute;
+  bottom: 0px;
 }
 
 
@@ -230,10 +232,16 @@ footer{
 
 /*Type*/
 @font-face{
-  font-family: Untitled1;
+  font-family: Exoforce;
   src: url("fonts/ExoforceTron.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
+}
+@font-face{
+  font-family: Untitled1;
+  src: url("fonts/VMF.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
 }
 h2, p, table, a{
   color:black;
@@ -241,14 +249,21 @@ h2, p, table, a{
 .eTr, .black{
   color: black;
 }
-h1{
+.u{
+  font-family: 'Untitled1', 'Nunito', sans-serif;
+  color: orange;
+  text-align: center;
+}
+.exoT{
   font-family: 'Exoforce', 'Nunito', sans-serif;
   color: orange;
   text-align: center;
 }
-
-h2{
+.exo{
   font-family: 'Exoforce', 'Nunito', sans-serif;
+}
+h2{
+  font-family: 'Untitled1', 'Nunito', sans-serif;
   text-align: center;
   font-size: 245%;
   margin-bottom: 30px;
