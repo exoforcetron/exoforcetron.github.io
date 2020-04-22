@@ -181,3 +181,20 @@ adjustment for mobile
     left: 0;
   }
 }
+
+.img:hover{
+  color: red;
+}
+/*
+#abo:hover{
+  color: #F6921E;
+}
+#wok:hover{
+  color: #F6921E;
+}
+#con:hover{
+  color: #F6921E;
+  border: 5px solid red;
+}
+*/
+
