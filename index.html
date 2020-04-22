@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/loading.css">
   <link rel="stylesheet" href="css/mouse.css">
   <script src="javascript/loading.js"></script>
-<!--  <script src="javascript/hover.js"></script>-->
+  <script src="javascript/hover.js"></script>
   
 
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
@@ -57,11 +57,24 @@
   <div class="margin marginTop"></div>
     <div class="wrapper">
        <div class="margin flex">
-         <div class="imageSize alignimg" id="teddyImg">
+         <div class="crop"  id="teddyImg">
            <img src="Media/Teddy.gif" class="teddy" id="teddyGif" height="400px" >
            <img src="Media/Teddy.PNG" class="teddy" id="teddyPng" height="400px">
-           <a class="hov" id="hov1" onmouseover="hovered()" onmouseout="done()" href="#">
+           <a class="hov" id="hov1" onmouseover="hovered1()" onmouseout="done1()" href="#">
              <h1 class="still hidden" id="Kin">Kinetic Type</h1>
+           </a>
+          </div>
+          <div class="crop"  id="VMFImg">
+           <img src="Media/VMF-animtion.gif" class="VMF" id="VMFGif" height="300px" >
+           <img src="Media/logoAnimtion_66.png" class="VMF" id="VMFPng" height="300px">
+           <a class="hov" id="hov2" onmouseover="hovered2()" onmouseout="done2()" href="#">
+             <h1 class="still hidden" id="Ani">VMF Animation</h1>
+           </a>
+          </div>
+          <div class="crop" id="proImg">
+           <img src="Media/instructions-01.png" class="pro" id="ProPng" height="300px" >
+           <a class="hov" id="hov3" onmouseover="hovered3()" onmouseout="done3()" href="#">
+             <h1 class="still hidden" id="pro">Cardboard Prosthetic Arm Instructions</h1>
            </a>
           </div>
        </div>
@@ -88,14 +101,8 @@
   function Hide(){
     navList.classList.remove("_Menus-show");
   }
-  function hovered(){
-    document.getElementById("teddyPng").style.opacity = "0";
-    document.getElementById("Kin").style.opacity = "1";
-  }
-  function done(){
-    document.getElementById("teddyPng").style.opacity = "1";
-    document.getElementById("Kin").style.opacity = "0";
-  }
+  
+
   
 //  //All this does is help align the anchor links
 //     var shiftWindow = function() { scrollBy(0, -90px) };
