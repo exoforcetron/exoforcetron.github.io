@@ -1,0 +1,92 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <title>Jessi Langager Graphic Designer</title>
+  
+  <script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+              document.getElementById("img2").src = images2[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+              document.getElementById("img2").src = images2[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 1000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "Media/Font/LCase_01_A.jpg";
+          images[1] = "Media/Font/LCase_02_B.jpg";
+          images[2] = "Media/Font/LCase_03_C.jpg";
+   
+          var images2 = [], x = -1;
+          images2[0] = "Media/Font/Cap_01_A.jpg";
+          images2[1] = "Media/Font/Cap_02_B.jpg";
+          images2[2] = "Media/Font/Cap_03_C.jpg";
+      </script>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/typography.css">
+      <link rel="stylesheet" href="css/%E6%9D%B1%E4%BA%AC%E3%83%86%E3%83%87%E3%82%A3%E3%83%99%E3%82%A2.css">
+      <link rel="stylesheet" href="css/nav.css">
+      
+  </head>
+<body onload="startTimer() ">
+  <div class="container" id="nav">
+    <div class="logo">
+      <a href="#"></a>
+    </div>
+    <div class="navbar">
+    <!--hambeger icon-->
+        <div class="icon-bar hide" onclick="Show()">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+      <!--mobile menu-->
+      <ul id="nav-lists">
+        <li class="close"><span onclick="Hide()" class="img">×</span></li>
+        <li><a href="#about" id="abo" onclick="Hide()" class="img">About me</a></li>
+        <li><a href="Projects.html" id="wok" onclick="Hide()" class="img">Work</a></li>
+        <li><a href="#contact" id="con" onclick="Hide()" class="img">contact</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div style="display: flex;">
+    <img id="img" src="Media/Font/LCase_15_O.jpg">
+    <img id="img2" src="Media/Font/Cap_01_A.jpg">
+  </div>
+   <footer style="width: 100%;">
+       <div class="wrapper">
+          <div class="last">
+            <a href="#top" id="goT" title="top" class="right black">Back to top</a>
+            <h3 class="exo">EXOFORCETRON 2020</h3>
+          </div>
+        </div>
+    </footer>
+    <script>
+        //get access to mobile menu
+  var navList = document.getElementById("nav-lists");
+  //show menu
+  function Show() {
+    navList.classList.add("_Menus-show");
+  }
+  //hide menu
+  function Hide(){
+    navList.classList.remove("_Menus-show");
+  }
+  </script>
+</body>
+</html>
