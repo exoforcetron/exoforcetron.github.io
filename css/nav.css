@@ -83,7 +83,7 @@
 }
 
 .container .navbar ul li a:hover {
-  color: #ffffff;
+  color: orange;
   background-color: rgba(23, 23, 23, 0.9);
 }
 
