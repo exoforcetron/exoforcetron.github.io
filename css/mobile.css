@@ -1,0 +1,17 @@
+@media screen and (max-width: 480px){
+  .left{
+    float: none;
+    margin-right: 0;
+  }
+  h2{
+    font-size: 100%;
+  }
+  .hide{
+    display: none;
+  }
+  #exo h1{
+    left: 0%;
+    margin: 0 auto;
+    font-size: 30%;
+  }
+}
