@@ -1,0 +1,98 @@
+.cropT{
+  width: 100%;
+  overflow: hidden;
+  height: 900px;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.img{
+  height: auto;
+  width: 100%;
+}
+h1{
+  text-align: center;
+}
+.small{
+  width: 50%;
+  height: auto;
+}
+
+
+.cropW{
+  width: 200px;
+  overflow: hidden;
+}
+.crop{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+/*  border: solid 1px black;*/
+  position: relative;
+}
+
+#img3{
+  position: absolute;
+  bottom: 0;
+}
+.cropWLC{
+  width: 200px;
+  overflow: hidden;
+}
+.cropWC{
+  width: 300px;
+  overflow: hidden;
+}
+/*
+.imgs{
+  width: 100px;
+  height: auto;
+}
+*/
+svg{
+  position: absolute;
+  bottom: 25%;
+}
+.postionL{
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+#circuit{
+  height: 600px;
+  width: 50;
+  
+/*  border-bottom: 5px solid black;*/
+}
+
+/*
+
+    <svg width=1000px;>
+   <line  x1="10"  y1="0"  x2="1000"  y2="0" stroke="black" stroke-width="6"/>
+    </svg>
+*/
+.flex{
+  direction: flex;
+}
+#aboutF{
+  width: 500px;
+  height: auto;
+  word-wrap: normal;
+  margin-right: 50px;
+}
+.marginT{
+  margin-top: 100px;
+}
+.cropV{
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.img1{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
