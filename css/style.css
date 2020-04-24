@@ -71,157 +71,16 @@ header .icon{
 }
 
 
-/* animation */
-.imagep{
-  height: auto;
-  margin-bottom: 30px;
-  background-color: #F6921E;
-}
-.crop{
-  width: 311px;
-  height: 311px;
-  overflow: hidden;
-}
-#teddyImg{
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-  border: solid 1px black;
-  background-color: white;
-/*  margin-right: 30%;*/
-}
-#teddyImg .teddy{
-  position: absolute;
-  top: 80px;
-}
-#VMFAImg, #proImg, #VMFImg{
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-  border: solid 1px black;
-  position: relative;
-}
-#VMFAImg{
-    background-color: #F6921E;
-}
-.VMFA{
-  position: absolute;
-  top: 3%;
-  padding-left: 50px;
-}
-.pro, .VMF{
-  position: absolute;
-}
-.flex{
-  display: flex;
-  flex-wrap: wrap;
-}
-.hov{
-  display:block;
-  height:311px;
-  opacity:1;
-  position:absolute;
-  width:311px;
-  text-align: center;
-  vertical-align: middle;
-}
-#hov1, #hov2, #hov3{
-  background-color: none;
-}
-
-.still{
-  position: absolute;
-  top:30%;
-}
-/*
-#teddyImg:hover #teddyPng{
-  display: none;
-}
-*/
-/*about section*/
-
-.video{
-  display: flex;
-  justify-content: center;
-}
-
-/*activites section*/
-#activites img{
-  width: 100%;
-  height: auto;
-}
-.li{
-  height: 100%;
-  width: auto;
-}
-#activites{
-  margin-bottom: 40px;
-}
-
-
-.center{
-  display: flex;
-  justify-content: center;
-
-}
-
-.left{
-  float: left;
-  text-align: center;
-  margin-right: 30px;
-}
-
-.overide{
-  margin-right: 0px;
-}
-/*Event Section*/
-
-#event p{
-  text-align: center;
-}
-
-.intro {
-  font-size: 200%;
-}
-
-.italics {
-  font-style: italic;
-}
-
-button {
-  width: 280px;
-  height: 49px;
-  margin: 0 auto;
-  background-color: orange;
-  text-transform: uppercase;
-}
-
-/*Tickets section*/
-th{
-  font-size: 16px;
-  margin-right: 30%; 
-  border-bottom: 2px solid black;
-}
-table tr{
-  border-bottom: 2px solid black;
-}
-
-table{
-  margin: 0 auto;
-  
-}
 
 /*footer section*/
 footer{
   width: 100%;
-  background-color: #fff100;
+  background-color: black;
   height: 80px;
+  color: orange;
   position: absolute;
   bottom: 0px;
 }
-
-
-
 
 
 
@@ -230,73 +89,7 @@ footer{
   clear: both;
 }
 
-/*Type*/
-@font-face{
-  font-family: Exoforce;
-  src: url("fonts/ExoforceTron.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face{
-  font-family: Untitled1;
-  src: url("fonts/VMF.ttf") format("truetype");
-  font-style: normal;
-  font-weight: bold;
-}
-h2, p, table, a{
-  color:black;
-}
-.eTr, .black{
-  color: black;
-}
-.u{
-  font-family: 'Untitled1', 'Nunito', sans-serif;
-  color: orange;
-  text-align: center;
-}
-.exoT{
-  font-family: 'Exoforce', 'Nunito', sans-serif;
-  color: orange;
-  text-align: center;
-}
-.exo{
-  font-family: 'Exoforce', 'Nunito', sans-serif;
-}
-h2{
-  font-family: 'Untitled1', 'Nunito', sans-serif;
-  text-align: center;
-  font-size: 245%;
-  margin-bottom: 30px;
-}
-h3{
-  font-family: 'Nunito', sans-serif;
-}
-p{
-  font-family: 'Nunito', sans-serif;
-  font-size: 145%;
-}
-.sub{
-  font-family: 'Nunito', sans-serif;
-  font-size: 145%;
-  text-align: center;
-}
-table{
-  font-family: 'Nunito', sans-serif;
-}
 
-a{
-  font-family: 'Nunito', sans-serif;
-  color: black;
-  text-decoration: none;
-}
-
-.centerT{
-  text-align: center;
-}
-.centerA{
-  display: flex;
-  
-}
 /*color Text*/
 .orange{
   color: orange;
@@ -312,22 +105,8 @@ a{
   margin-left: 10%;
   margin-right: 10%;
 }
-
-
-@media screen and (max-width: 480px){
-  .left{
-    float: none;
-    margin-right: 0;
-  }
-  h2{
-    font-size: 100%;
-  }
-  .hide{
-    display: none;
-  }
-  #exo h1{
-    left: 0%;
-    margin: 0 auto;
-    font-size: 30%;
-  }
+.marginB{
+  padding-bottom: 2%;
 }
+
+
