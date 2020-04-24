@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<!--
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+-->
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <title>Jessi Langager-Graphic Designer</title>
+  <link rel="stylesheet" href="css/nav.css">
+
+<!--  <link rel="stylesheet" href="css/loading.css">-->
+  <link rel="stylesheet" href="css/mouse.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/%E6%9D%B1%E4%BA%AC%E3%83%86%E3%83%87%E3%82%A3%E3%83%99%E3%82%A2.css">
+
+  <script src="javascript/hover.js"></script>
+  
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="nav">
+      <div class="logo">
+        <a href="#"></a>
+      </div>
+      <div class="navbar">
+      <!--hambeger icon-->
+        <div class="icon-bar hide" onclick="Show()">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+      <!--mobile menu-->
+      <ul id="nav-lists">
+        <li class="close"><span onclick="Hide()" class="img">×</span></li>
+        <li><a href="#about" id="abo" onclick="Hide()" class="img">About me</a></li>
+        <li><a href="Projects.html" id="wok" onclick="Hide()" class="img">Work</a></li>
+        <li><a href="#contact" id="con" onclick="Hide()" class="img">contact</a></li>
+       
+      </ul>
+
+      </div>
+    </div>
+  
+  
+<!--  Work -->
+  <div class="margin marginTop marginB">
+    <div class="wrapper">
+       <div class="margin flex">
+         <div class="cropT">
+           <img src="Media/Untitled-1-01.png" class="img">
+         </div>
+      </div>
+    </div>
+  </div>
+  
+        
+
+     <footer>
+       <div class="wrapper">
+          <div class="last">
+            <a href="#top" id="goT" title="top" class="right black">Back to top</a>
+            <h3 class="exo">EXOFORCETRON 2020</h3>
+          </div>
+        </div>
+    </footer>
+
+
+<script>
+  //get access to mobile menu
+  var navList = document.getElementById("nav-lists");
+  //show menu
+  function Show() {
+    navList.classList.add("_Menus-show");
+  }
+  //hide menu
+  function Hide(){
+    navList.classList.remove("_Menus-show");
+  }
+  
+
+  
+//  //All this does is help align the anchor links
+//     var shiftWindow = function() { scrollBy(0, -90px) };
+//     //help hash load
+//    if (location.hash) shiftWindsow();
+//        window.addEventListener("hashchange", shiftWindow);
+</script>
+
+</body>
+</html>

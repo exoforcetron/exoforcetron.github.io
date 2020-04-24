@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<!--
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+-->
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <title>Projects</title>
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/img-grid.css">
+
+  <script src="javascript/hover.js"></script>
+  
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <div class="container" id="nav">
+      <div class="logo">
+        <a href="#"></a>
+      </div>
+      <div class="navbar">
+      <!--hambeger icon-->
+        <div class="icon-bar hide" onclick="Show()">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+      <!--mobile menu-->
+      <ul id="nav-lists">
+        <li class="close"><span onclick="Hide()" class="img">×</span></li>
+        <li><a href="#about" id="abo" onclick="Hide()" class="img">About me</a></li>
+        <li><a href="#work" id="wok" onclick="Hide()" class="img">Work</a></li>
+        <li><a href="#contact" id="con" onclick="Hide()" class="img">contact</a></li>
+       
+      </ul>
+
+      </div>
+    </div>
+  
+  
+<!--  Work -->
+  
+    <div class="wrapper marginB marginTop">
+       <div class="margin flex">
+         <div class="crop"  id="teddyImg">
+           <img src="Media/Teddy.gif" class="teddy" id="teddyGif" height="400px" >
+           <img src="Media/Teddy.PNG" class="teddy" id="teddyPng" height="400px">
+           <a class="hov" id="hov1" onmouseover="hovered1()" onmouseout="done1()" href="kinetic-type-tokyo-teddy-bear.html">
+             <h1 class="still hidden u" id="Kin">Kinetic Type</h1>
+           </a>
+          </div>
+          <div class="crop"  id="VMFAImg">
+           <img src="Media/VMF-animtion.gif" class="VMFA" id="VMFGif" height="300px" >
+           <img src="Media/logoAnimtion_66.png" class="VMFA" id="VMFAPng" height="300px">
+           <a class="hov" id="hov2" onmouseover="hovered2()" onmouseout="done2()" href="#">
+             <h1 class="still hidden u" id="Ani">VMF Animation</h1>
+           </a>
+          </div>
+          <div class="crop" id="proImg">
+           <img src="Media/instructions-01.png" class="pro" id="ProPng" width="350px" >
+           <a class="hov" id="hov3" onmouseover="hovered3()" onmouseout="done3()" href="#">
+             <h1 class="still1 hidden u" id="pro">Cardboard Prosthetic Arm Instructions</h1>
+           </a>
+          </div>
+          <div class="crop" id="VMFImg">
+           <img src="Media/Posters2-12.png" class="VMF" id="VMFPng" height="300px" >
+           <a class="hov" id="hov4" onmouseover="hovered4()" onmouseout="done4()" href="#">
+             <h1 class="still1 hidden u" id="VMF">VMF</h1>
+           </a>
+          </div>
+          <div class="crop" id="VMFWeb">
+           <img src="Media/Screens.JPG" class="vmfWeb" id="vmfJpg" height="350px" >
+           <a class="hov" id="hov5" onmouseover="hovered5()" onmouseout="done5()" href="VMF_Website.html">
+             <h1 class="still1 hidden u" id="VMFW">VMF Website</h1>
+           </a>
+          </div>
+       </div>
+  </div>
+
+     <footer>
+       <div class="wrapper">
+          <div class="last">
+            <a href="#top" id="goT" title="top" class="right black">Back to top</a>
+            <h3 class="exo">EXOFORCETRON 2020</h3>
+          </div>
+        </div>
+    </footer>
+  
+
+<script>
+  //get access to mobile menu
+  var navList = document.getElementById("nav-lists");
+  //show menu
+  function Show() {
+    navList.classList.add("_Menus-show");
+  }
+  //hide menu
+  function Hide(){
+    navList.classList.remove("_Menus-show");
+  }
+  
+
+  
+//  //All this does is help align the anchor links
+//     var shiftWindow = function() { scrollBy(0, -90px) };
+//     //help hash load
+//    if (location.hash) shiftWindsow();
+//        window.addEventListener("hashchange", shiftWindow);
+</script>
+
+</body>
+</html>
