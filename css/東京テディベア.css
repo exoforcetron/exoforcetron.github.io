@@ -87,12 +87,20 @@ svg{
 }
 .cropV{
   width: 500px;
-  height: 400px;
+  height: 300px;
   overflow: hidden;
   position: relative;
 }
 .img1{
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -200px;
 }
+
+.center{
+  margin: auto;
+}
+/*
+iframe{
+  display: block;
+}*/
