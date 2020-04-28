@@ -1,0 +1,71 @@
+/*Type*/
+@font-face{
+  font-family: Exoforce;
+  src: url("fonts/ExoforceTron.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face{
+  font-family: Untitled1;
+  src: url("fonts/VMF.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+h2, p, table, a{
+  color:black;
+}
+.eTr, .black{
+  color: black;
+}
+.u{
+  font-family: 'Untitled1', 'Nunito', sans-serif;
+  color: orange;
+  text-align: center;
+}
+.exoT{
+  font-family: 'Exoforce', 'Nunito', sans-serif;
+  color: orange;
+  text-align: center;
+}
+.exo{
+  font-family: 'Exoforce', 'Nunito', sans-serif;
+}
+h2{
+  font-family: 'Untitled1', 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 245%;
+  margin-bottom: 30px;
+}
+h3{
+  font-family: 'Nunito', sans-serif;
+}
+p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 145%;
+}
+.sub{
+  font-family: 'Nunito', sans-serif;
+  font-size: 145%;
+  text-align: center;
+}
+table{
+  font-family: 'Nunito', sans-serif;
+}
+
+a{
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.centerT{
+  text-align: center;
+}
+.centerA{
+  display: flex;
+  
+}
+
+.italics {
+  font-style: italic;
+}
