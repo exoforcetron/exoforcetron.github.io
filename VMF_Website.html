@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>JS Bin</title>
+  <title>VMF Website</title>
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="HandheldFriendly" content="true">
@@ -13,6 +13,7 @@
               x = (x === images.length - 1) ? 0 : x + 1;
               document.getElementById("img").src = images[x];
               document.getElementById("img2").src = images2[x];
+              document.getElementById("img3").src = images3[x];
           }
 
           function displayPreviousImage() {
@@ -22,7 +23,7 @@
           }
 
           function startTimer() {
-              setInterval(displayNextImage, 1000);
+              setInterval(displayNextImage, 500);
           }
 
           var images = [], x = -1;
@@ -30,42 +31,95 @@
           images[1] = "Media/Font/LCase_02_B.jpg";
           images[2] = "Media/Font/LCase_03_C.jpg";
           images[3] = "Media/Font/LCase_04_D.jpg";
-          images[4] = "Media/Font/LCase_05_D.jpg";
-          images[5] = "Media/Font/LCase_06_E.jpg";
-          images[6] = "Media/Font/LCase_07_F.jpg";
-          images[7] = "Media/Font/LCase_08_H.jpg;
-          images[8] = "Media/Font/LCase_09_J.jpg";
+          images[4] = "Media/Font/LCase_05_E.jpg";
+          images[5] = "Media/Font/LCase_06_F.jpg";
+          images[6] = "Media/Font/LCase_07_G.jpg";
+          images[7] = "Media/Font/LCase_08_H.jpg";
+          images[8] = "Media/Font/LCase_09_I.jpg";
           images[9] = "Media/Font/LCase_10_J.jpg";
           images[10] = "Media/Font/LCase_11_K.jpg";
           images[11] = "Media/Font/LCase_12_L.jpg";
           images[12] = "Media/Font/LCase_13_M.jpg";
           images[13] = "Media/Font/LCase_14_N.jpg";
           images[14] = "Media/Font/LCase_15_O.jpg";
+          images[15] = "Media/Font/LCase_16_P.jpg";
+          images[16] = "Media/Font/LCase_17_Q.jpg";
+          images[17] = "Media/Font/LCase_18_R.jpg";
+          images[18] = "Media/Font/LCase_19_S.jpg";
+          images[19] = "Media/Font/LCase_20_T.jpg";
+          images[21] = "Media/Font/LCase_21_U.jpg";
+          images[22] = "Media/Font/LCase_22_V.jpg";
+          images[23] = "Media/Font/LCase_23_W.jpg";
+          images[24] = "Media/Font/LCase_24_X.jpg";
+          images[25] = "Media/Font/LCase_25_Y.jpg";
+          images[26] = "Media/Font/LCase_26_Z.jpg";    
+          
    
           var images2 = [], x = -1;
           images2[0] = "Media/Font/Cap_01_A.jpg";
           images2[1] = "Media/Font/Cap_02_B.jpg";
           images2[2] = "Media/Font/Cap_03_C.jpg";
           images2[3] = "Media/Font/Cap_04_D.jpg";
-          images2[4] = "Media/Font/Cap_05_D.jpg";
-          images2[5] = "Media/Font/Cap_06_E.jpg";
-          images2[6] = "Media/Font/Cap_07_F.jpg";
-          images2[7] = "Media/Font/Cap_08_H.jpg;
-          images2[8] = "Media/Font/Cap_09_J.jpg";
+          images2[4] = "Media/Font/Cap_05_E.jpg";
+          images2[5] = "Media/Font/Cap_06_F.jpg";
+          images2[6] = "Media/Font/Cap_07_G.jpg";
+          images2[7] = "Media/Font/Cap_08_H.jpg";
+          images2[8] = "Media/Font/Cap_09_I.jpg";
           images2[9] = "Media/Font/Cap_10_J.jpg";
           images2[10] = "Media/Font/Cap_11_K.jpg";
           images2[11] = "Media/Font/Cap_12_L.jpg";
           images2[12] = "Media/Font/Cap_13_M.jpg";
           images2[13] = "Media/Font/Cap_14_N.jpg";
           images2[14] = "Media/Font/Cap_15_O.jpg";
+          images2[15] = "Media/Font/Cap_16_P.jpg";
+          images2[16] = "Media/Font/Cap_17_Q.jpg";
+          images2[17] = "Media/Font/Cap_18_R.jpg";
+          images2[18] = "Media/Font/Cap_19_S.jpg";
+          images2[19] = "Media/Font/Cap_20_T.jpg";
+          images2[21] = "Media/Font/Cap_21_U.jpg";
+          images2[22] = "Media/Font/Cap_22_V.jpg";
+          images2[23] = "Media/Font/Cap_23_W.jpg";
+          images2[24] = "Media/Font/Cap_24_X.jpg";
+          images2[25] = "Media/Font/Cap_25_Y.jpg";
+          images2[26] = "Media/Font/Cap_26_Z.jpg";
+    
+    var images3 = [], x = -1;
+          images3[0] = "Media/Font/Glyph_Ampersand.jpg";
+          images3[1] = "Media/Font/Glyph_Colon.jpg";
+          images3[2] = "Media/Font/Glyph_Comma.jpg";
+          images3[3] = "Media/Font/Glyph_EndQuote.jpg";
+          images3[4] = "Media/Font/Glyph_Minus.jpg";
+          images3[5] = "Media/Font/Glyph_OpenApostrophe.jpg";
+          images3[6] = "Media/Font/Glyph_OpenQuote.jpg";
+          images3[7] = "Media/Font/Glyph_Peroid.jpg";
+          images3[8] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[9] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[10] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[11] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[12] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[13] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[14] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[15] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[16] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[17] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[18] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[19] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[20] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[21] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[22] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[23] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[24] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[25] = "Media/Font/Glyph_Semicolon.jpg";
+          images3[26] = "Media/Font/Glyph_Semicolon.jpg";
+
       </script>
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/typography.css">
       <link rel="stylesheet" href="css/%E6%9D%B1%E4%BA%AC%E3%83%86%E3%83%87%E3%82%A3%E3%83%99%E3%82%A2.css">
       <link rel="stylesheet" href="css/nav.css">
-      
   </head>
-<body onload="startTimer() ">
+<body onload="startTimer()">
+<!-- onload="startTimer()"-->
   <div class="container" id="nav">
     <div class="logo">
       <a href="#"></a>
@@ -87,11 +141,37 @@
 
     </div>
   </div>
-
-  <div style="display: flex;">
-    <img id="img" src="Media/Font/LCase_15_O.jpg">
-    <img id="img2" src="Media/Font/Cap_01_A.jpg">
-  </div>
+   <header>
+     
+   </header>
+   <section class="wrapper marginT">
+    <h1>Vanvouver Maker Faire Website</h1>
+    <h2>web design - type - animation</h2>
+    <p style="text-align: center";>This is a remake of Vanvouver maker faires website. The website was to keep the circuit theme.</p>
+  </section>
+  <div class="wrapper flex marginB">
+ 
+   <div id="aboutF">
+      <h2>Circuit</h2>
+      <p>A custom font was created for this website. This text was based off the text on this older version poster (this text got replaced with nunito).</p>
+      <div class="cropV">
+        <img class="img1" src="Media/Posters2-19.png">
+      </div>
+    </div>
+    <div style="display: flex;" class="postionL" id="circuit">
+     <div class="cropWLC crop">
+       <img id="img" class="imgs" src="Media/Font/LCase_15_O.jpg" width="400px" height="auto">
+     </div>
+      <div class="cropWC crop">
+        <img id="img2" class="imgs"src="Media/Font/Cap_01_A.jpg" width="400px" height="auto">
+      </div>
+      <div class="cropW crop">
+        <img id="img3"class="imgs" src="Media/Font/Glyph_Period.jpg"   width="400px" height="auto">
+      </div>
+    </div>
+    
+  </div> 
+   
    <footer style="width: 100%;">
        <div class="wrapper">
           <div class="last">
