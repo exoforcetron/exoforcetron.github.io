@@ -1,0 +1,22 @@
+.rotate-r {
+  transform: rotate(-10deg);
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.rotate-l{
+   transform: rotate(10deg);
+    display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+footer{
+  position: relative;
+  bottom: 0;
+  padding: 10px 10px 0px 10px;
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
