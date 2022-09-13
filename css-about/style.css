@@ -4,15 +4,21 @@
 .alt{
   display: none;
 }
-.box{
+.box,.box2{
   background-color: black;
   height: auto;
   width: auto;
-  max-width: 387px; 
-  margin-right: 30px;  
+ 
 /*  flex-wrap: wrap;*/
 }
-
+.box2{
+  max-width: 700px; 
+  margin-right: 30px;  
+}
+.box{
+  max-width: 387px; 
+  margin-right: 30px;  
+}
 .top{
   margin-top: 30px;
 }
